@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALISA | Социальная инженерия & Кибербезопасность</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Roboto+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-animation"></div>
+    <div class="scan-line"></div>
+    
+    <header>
+        <div class="container">
+            <h1 class="glitch" data-text="ALISA">ALISA</h1>
+            <p class="tagline">Специалист по социальной инженерии & кибербезопасности</p>
+        </div>
+    </header>
+
+    <nav class="main-nav">
+        <div class="container">
+            <ul class="nav-list">
+                <li><a href="#about" class="nav-link"><i class="fas fa-user-secret"></i> Обо мне</a></li>
+                <li><a href="#skills" class="nav-link"><i class="fas fa-brain"></i> Навыки</a></li>
+                <li><a href="#projects" class="nav-link"><i class="fas fa-project-diagram"></i> Проекты</a></li>
+                <li><a href="#pricing" class="nav-link"><i class="fas fa-tag"></i> Прайс</a></li>
+                <li><a href="#reviews" class="nav-link"><i class="fas fa-comment-alt"></i> Отзывы</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section id="about" class="card hidden">
+            <h2><i class="fas fa-terminal"></i> Обо мне</h2>
+            <p>Я — ALISA, специалист в области социальной инженерии и кибербезопасности. Моя работа заключается в исследовании человеческого фактора как самого уязвимого звена в системе защиты.</p>
+            <p>Использую психологические методы для тестирования на прочность security-политик компаний и повышения осведомленности сотрудников.</p>
+            <p>Эксперт в области penetration testing, phishing simulation, OSINT и физического проникновения.</p>
+            <div class="contact-btn-container">
+                <a href="http://t.me/fuckalica" class="btn telegram-btn" target="_blank">
+                    <i class="fab fa-telegram-plane"></i> Перейти в личные сообщения
+                </a>
+            </div>
+        </section>
+
+        <section id="skills" class="card hidden">
+            <h2><i class="fas fa-code"></i> Навыки</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <h3><i class="fas fa-mask"></i> Социальная инженерия</h3>
+                    <p>Претекстинг, фишинг, вишинг, кви про кво, физическое проникновение</p>
+                </div>
+                <div class="skill-item">
+                    <h3><i class="fas fa-shield-alt"></i> Кибербезопасность</h3>
+                    <p>Pentesting, аудит безопасности, анализ уязвимостей, forensics</p>
+                </div>
+                <div class="skill-item">
+                    <h3><i class="fas fa-search"></i> OSINT</h3>
+                    <p>Сбор и анализ открытых данных, цифровой след, профилирование</p>
+                </div>
+                <div class="skill-item">
+                    <h3><i class="fas fa-user-check"></i> Обучение</h3>
+                    <p>Проведение тренингов по безопасности, моделирование атак, создание awareness программ</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="card hidden">
+            <h2><i class="fas fa-cogs"></i> Проекты</h2>
+            <div class="project-card">
+                <h3><i class="fas fa-crow"></i> Сумрачный Ворон</h3>
+                <p>Закрытое сообщество специалистов по безопасности и социальной инженерии. Обмен знаниями, инструментами и проведение совместных исследований.</p>
+                <a href="https://t.me/+yc-acjmHA4w5MDRk" class="btn project-btn" target="_blank">
+                    <i class="fab fa-telegram"></i> Присоединиться к проекту
+                </a>
+            </div>
+            <p class="more-projects">Другие проекты доступны по запросу</p>
+        </section>
+
+        <section id="pricing" class="card hidden">
+            <h2><i class="fas fa-coins"></i> Прайс</h2>
+            <p>Стоимость услуг зависит от сложности и масштаба проекта. Базовые пакеты:</p>
+            <ul class="price-list">
+                <li><span class="price-item">Аудит безопасности компании</span> <span class="price-tag">от 1500$</span></li>
+                <li><span class="price-item">Фишинг-симуляция для сотрудников</span> <span class="price-tag">от 800$</span></li>
+                <li><span class="price-item">Тренинг по социальной инженерии</span> <span class="price-tag">от 500$</span></li>
+                <li><span class="price-item">Персональный OSINT-аудит</span> <span class="price-tag">от 300$</span></li>
+                <li><span class="price-item">Консультация по безопасности</span> <span class="price-tag">100$/час</span></li>
+            </ul>
+            <a href="https://t.me/prsalica" class="btn price-btn" target="_blank">
+                <i class="fas fa-file-invoice-dollar"></i> Получить полный прайс
+            </a>
+        </section>
+
+        <section id="reviews" class="card hidden">
+            <h2><i class="fas fa-star"></i> Отзывы</h2>
+            <div class="reviews-container">
+                <div class="review">
+                    <p>"Профессионал высочайшего уровня. Проведенный аудит выявил критические уязвимости, о которых мы даже не подозревали."</p>
+                    <span class="review-author">— Security Lead, FinTech компания</span>
+                </div>
+                <div class="review">
+                    <p>"Тренинг по социальной инженерии изменил mindset нашей команды. Теперь сотрудники внимательнее к подозрительным запросам."</p>
+                    <span class="review-author">— HR Director, IT корпорация</span>
+                </div>
+                <div class="review">
+                    <p>"Фишинг-симуляция показала реальную картину уязвимости. Рекомендую Alisa как эксперта."</p>
+                    <span class="review-author">— CTO, логистическая компания</span>
+                </div>
+            </div>
+            <a href="https://t.me/repalica" class="btn reviews-btn" target="_blank">
+                <i class="fas fa-comments"></i> Больше отзывов в Telegram
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>ALISA &copy; 2023 | Социальная инженерия & Кибербезопасность</p>
+            <div class="social-links">
+                <a href="http://t.me/fuckalica" target="_blank"><i class="fab fa-telegram"></i></a>
+                <a href="https://t.me/+yc-acjmHA4w5MDRk" target="_blank"><i class="fas fa-crow"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
